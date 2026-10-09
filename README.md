@@ -6,7 +6,7 @@
 
 **Date:** September 2026
 
-This project aims to classify emotions from speech using mel-scale spectrograms.
+This project aims to classify emotions from images.
 
 ## Repository Structure
 
