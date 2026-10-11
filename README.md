@@ -6,7 +6,13 @@
 
 **Date:** September 2026
 
-This project aims to classify emotions from images.
+This project aims to detect and classify emotions from pictures. We use the [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013) dataset and explore a custom CNN, a KNN and a Linear SVM, trained in Google Colab.
+
+## Live Demo
+
+You can try the trained models with you own recordings [here](https://diasjulia.github.io/FaceEmotionRecognizer/).
+
+Upload or take a picture of your facial expression directly in the browser. The app extracts features from the image, and runs the selected trained network to show the predicted emotion.
 
 ## Repository Structure
 
@@ -19,13 +25,3 @@ This project aims to classify emotions from images.
 ├── script.js                          # image input and ONNX inference
 └── README.md
 ```
-
-## Running locally
-
-The app is static (hosted on GitHub Pages). To run it locally, serve the folder:
-
-```
-python -m http.server
-```
-
-and open http://localhost:8000. Upload a photo or use the camera, choose a model and click *Predict emotion*.
