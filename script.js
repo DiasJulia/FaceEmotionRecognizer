@@ -80,7 +80,7 @@ $('predict').onclick = async () => {
 		showResult(model.softmax ? softmax(scores) : scores);
 	} catch (error) {
 		delete sessions[model.file];
-		$('result').innerHTML = `<div class="alert alert-danger mb-0">${error.message}</div>`;
+		$('result').innerHTML = `<div class="alert alert-danger mb-0">${error.message ?? error}</div>`;
 	}
 	$('result').hidden = false;
 	$('predict').disabled = false;
