@@ -1,0 +1,8 @@
+{
+	"labels": ["Angry", "Disgust", "Fear", "Happy", "Neutral", "Sad", "Surprise"],
+	"models": [
+		{ "name": "Mini-Xception (CNN)", "file": "models/mini_xception.onnx", "features": "pixels" },
+		{ "name": "HOG + Linear SVM", "file": "models/hog_svm.onnx", "features": "hog", "softmax": true },
+		{ "name": "LBP + KNN", "file": "models/lbp_knn_fp16.onnx.br", "features": "lbp" }
+	]
+}
