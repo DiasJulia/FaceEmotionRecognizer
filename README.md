@@ -4,9 +4,9 @@
 
 **Course:** RO311 - Apprentissage pour la robotique @ ENSTA Paris
 
-**Date:** September 2026
+**Date:** October 2026
 
-This project aims to detect and classify emotions from pictures. We use the [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013) dataset and explore a custom CNN, a KNN and a Linear SVM, trained in Google Colab.
+This project aims to detect and classify emotions from pictures. We use the [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013) dataset and explore three different models: a KNN, a Linear SVM (both using preprocessing feature extraction methods LBP and HOG, respectively), and an implementation of the mini-Xception CNN, all trained in Google Colab.
 
 ## Live Demo
 
@@ -19,9 +19,10 @@ Upload or take a picture of your facial expression directly in the browser. The 
 ```
 ├── models/                            # trained models saved as .onnx files
 ├── notebooks/                         # notebooks with training and results for each network
+├── README.md                        
 ├── config.json                        # live app files: models and labels
-├── features.js                        # LBP (KNN) and HOG (SVM) extraction, as in scikit-image
+├── features.js                        # implementation of LBP and HOG feature extraction, as in scikit-image
 ├── index.html
 ├── script.js                          # image input and ONNX inference
-└── README.md
+└── style.css
 ```
