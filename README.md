@@ -12,7 +12,7 @@ This project aims to detect and classify emotions from pictures. We use the [FER
 
 You can try the trained models with you own recordings [here](https://diasjulia.github.io/FaceEmotionRecognizer/).
 
-Upload or take a picture of your facial expression directly in the browser. The app extracts features from the image, and runs the selected trained network to show the predicted emotion.
+Upload or take a picture of your facial expression directly in the browser. The app extracts features from the image, and runs the three trained models side by side to compare their predicted emotions.
 
 ## Repository Structure
 
