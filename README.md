@@ -35,12 +35,12 @@ Afterwards, accuracy and average latency were also measured on 50 test samples. 
 ## Repository Structure
 
 ```
-├── models/                            # trained models saved as .onnx files
-├── notebooks/                         # notebooks with training and results for each network
+├── models/              # trained models saved as .onnx files
+├── notebooks/           # notebooks with training and results for each network
 ├── README.md                        
-├── config.json                        # live app files: models and labels
-├── features.js                        # implementation of LBP and HOG feature extraction, as in scikit-image
+├── config.json          # live app files: models and labels
+├── features.js          # implementation of LBP and HOG feature extraction, as in scikit-image
 ├── index.html
-├── script.js                          # image input and ONNX inference
+├── script.js            # image input and ONNX inference
 └── style.css
 ```
